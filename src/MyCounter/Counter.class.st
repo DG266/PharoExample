@@ -25,3 +25,13 @@ Counter >> count: myInteger [
 	count := myInteger
 	
 ]
+
+{ #category : #operations }
+Counter >> decrement [
+	count := count - 1
+]
+
+{ #category : #operations }
+Counter >> increment [
+	count := count + 1
+]

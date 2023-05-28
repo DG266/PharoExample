@@ -16,6 +16,11 @@ Class {
 }
 
 { #category : #accessing }
+Counter class >> startingAt: myInteger [
+	^ self new count: myInteger
+]
+
+{ #category : #accessing }
 Counter >> count [
 	^ count
 ]

@@ -7,8 +7,9 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+    #allTestCases : true,
     #coverage : {
-      #packages : [ 'MyCounter-*' ],
+      #packages : [ 'MyCounter' ],
       #format : #coveralls
     }
   }

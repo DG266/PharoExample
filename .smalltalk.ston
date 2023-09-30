@@ -7,7 +7,7 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #classes : [ #CounterFailingTest ],
+    #packages : [ 'MyCounter-Failing-Tests' ],
     #coverage : {
       #packages : [ 'MyCounter' ],
       #format : #coveralls

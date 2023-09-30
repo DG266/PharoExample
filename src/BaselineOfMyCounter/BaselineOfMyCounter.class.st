@@ -13,6 +13,7 @@ BaselineOfMyCounter >> baseline: spec [
 			"Packages"
 			spec
 				package: 'MyCounter';
-				package: 'MyCounter-Tests' with: [ spec requires: #('MyCounter') ]
+				package: 'MyCounter-Tests' with: [ spec requires: #('MyCounter') ];
+				package: 'MyCounter-Failing-Tests' with: [ spec requires: #('MyCounter') ]
 		]
 ]

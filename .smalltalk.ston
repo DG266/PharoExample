@@ -8,9 +8,6 @@ SmalltalkCISpec {
   ],
   #testing : {
     #classes : [ #CounterFailingTest ],
-    #categories : [ 'MyCounter-Failing-Tests' ],
-    #packages : [ 'MyCounter-Failing-Tests' ],
-    #projects : [ 'BaselineOfMyCounter' ],
     #coverage : {
       #packages : [ 'MyCounter' ],
       #format : #coveralls
